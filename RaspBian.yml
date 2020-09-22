@@ -1,0 +1,34 @@
+# apps and configurations suggestions for RaspBian
+### I will update later with scripts or unix shell commands
+### to set the configurations instead of the written directions
+
+# install Firefox ESR browser (better than chromium, with no updates)
+sudo apt install firefox-esr
+
+# panel preferences (my order): 
+# Bluetooth, 
+# Wireless, 
+# Volume Control, 
+# Weather Plugin, 
+
+# Clock, 
+### Clock format : %W^sem, %a %d-%m %Rh
+### Hint format : %A %x
+
+# Temperature Monitor - I prefer than CPU Temperatur Monitor
+### Normal color : #009900 (hard green)
+### Warning 1 color : #ff9900 (between orange and yellow)
+### Warning 2 color : #ff0000 (red)
+### [ ] uncheck "Temperature Automatic Levels" and 
+### set for warning 1 : 40 and Warning 2 : 65
+
+# CPU use monitor, 
+### [X] check "Show usage as percentage"
+### Foreground colour : default (medium gray)
+### Backgroun colout : #FFFFFF (white)
+
+# Ejecter
+
+sudo apt install synaptic
+
+sudo apt install mypaint
