@@ -1,2 +1,2 @@
 # OSs
-Operating Systems area -specific things for anyone, as Windows, Linux or any others
+...in this repositoty will be specific things for any, as Windows, Linux or any other OSs
