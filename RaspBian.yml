@@ -12,12 +12,19 @@ sudo visudo /etc/sudoers.d/010_pi-nopasswd
 sudo apt install ufw
 sudo ufw enable
 
+# -ref: https://raspberrytips.com/security-tips-raspberry-pi/
+# 
+sudo apt install fail2ban
+sudo service fail2ban restart
+
 # install Firefox ESR browser (better than chromium, with no updates)
 sudo apt install firefox-esr
 
 # panel preferences (my order): 
 # Bluetooth, 
-# Wireless, 
+# Wireless & Wired Network, 
+# Network State Monitor,
+# Manage Networks,
 # Volume Control, 
 # Weather Plugin, 
 
@@ -38,6 +45,8 @@ sudo apt install firefox-esr
 ### Backgroun colout : #FFFFFF (white)
 
 # Ejecter
+
+# CPUFreq Interface
 
 sudo apt install synaptic
 
